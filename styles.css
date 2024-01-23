@@ -1,0 +1,22 @@
+* {
+    background-color:rgb(238, 218, 240);
+    font-family:"Trebuchet MS", Arial, sans-serif;
+    font-size: 12px;
+    text-align: left; 
+}
+
+body {
+    color:hsl(241, 94%, 21%)
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 24px; 
+    color:rgb(72, 16, 107)
+}
+
+h3 {
+    font-size: 16px;
+    color:rgb(122, 37, 202);
+}
+
