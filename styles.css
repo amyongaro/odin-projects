@@ -20,3 +20,17 @@ h3 {
     color:rgb(122, 37, 202);
 }
 
+.recipe-section {
+    border: 2px dotted;
+    color: darkslateblue;
+    padding: 15px;
+}
+
+li {
+    display: inline-block;
+    width: 150px;
+}
+
+img {
+    margin: 5px;
+}
