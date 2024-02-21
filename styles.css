@@ -24,9 +24,10 @@ h3 {
     border: 2px dotted;
     color: darkslateblue;
     padding: 15px;
+    width: 500px;
 }
 
-li {
+.featured-recipes {
     display: inline-block;
     width: 150px;
 }
