@@ -1,6 +1,7 @@
 * {
     /* background-color: white; */
     font-family:Arial, Helvetica, sans-serif;
+    /* padding: 5px 10px; */
 }
 
 .site-container {
@@ -13,11 +14,13 @@
     color: #F9FAF8;
     font-size: 24px;
 }
+
 .navbar {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 30px;
 }
 
 nav > ul {
@@ -26,9 +29,29 @@ nav > ul {
     margin: 0;
 }
 
+.navlinks {
+    display: flex;
+    gap: 10px;
+}
+
 .navlinks a {
     text-decoration: none;
     color: #F9FAF8;
+    font-size: 12px;
 }
 
+.header {
+    display: flex;
+    padding: 30px;
+    background-color: #1F2937;
+}
 
+.header .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header img {
+    max-width: 400px;
+    padding-left: 20px;
+}
