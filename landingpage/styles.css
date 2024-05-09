@@ -141,3 +141,47 @@ nav > ul {
     font-weight: bolder;
     padding-right: 20px;
 }
+
+.cta {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta_box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    width: 500px;
+    background-color: #3882F6
+}
+
+.cta_container {
+   color: #F9FAF8; 
+}
+
+.cta_container p {
+    margin-top: -20px;
+    font-size: 11px;
+}
+
+.cta .b2 {
+   color: #F9FAF8; 
+   background-color: #3882F6;
+   border-color: #F9FAF8;
+   box-shadow: none;
+   border-radius: 3px;
+   border-width: 1px;
+   font-size: 11px;
+}
+
+.footer {
+    margin-top: 30px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
