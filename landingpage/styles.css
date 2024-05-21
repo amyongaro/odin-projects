@@ -13,6 +13,7 @@
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    margin-left: 100px;
 }
 
 .navbar {
@@ -32,6 +33,7 @@ nav > ul {
 .navlinks {
     display: flex;
     gap: 10px;
+    margin-right: 100px;
 }
 
 .navlinks a {
@@ -50,6 +52,7 @@ nav > ul {
 .header .container {
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
 }
 
 .header h1 {
@@ -76,6 +79,7 @@ nav > ul {
 .header img {
     max-width: 380px;
     padding-left: 20px;
+    margin-right: 100px;
 }
 
 .features h2 {
@@ -152,18 +156,19 @@ nav > ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 10px;
-    width: 500px;
-    background-color: #3882F6
+    padding: 10px 20px 20px; 
+    width: 550px;
+    background-color: #3882F6;
+    border-radius: 4px;
 }
 
 .cta_container {
-   color: #F9FAF8; 
+    color: #F9FAF8; 
 }
 
 .cta_container p {
     margin-top: -20px;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .cta .b2 {
@@ -172,16 +177,19 @@ nav > ul {
    border-color: #F9FAF8;
    box-shadow: none;
    border-radius: 3px;
-   border-width: 1px;
+   border-width: 2px;
    font-size: 11px;
+   padding: 3px 15px;
 }
 
 .footer {
     margin-top: 30px;
     background-color: #1F2937;
     color: #E5E7EB;
-    font-size: 10px;
+    font-size: 12px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 80px;
 }
 
